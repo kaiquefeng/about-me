@@ -22,7 +22,11 @@ const config = defineConfig({
     }),
     svgr(),
     tailwindcss(),
-    tanstackStart(),
+    tanstackStart({
+      server: {
+        preset: 'static',
+      },
+    }),
     viteReact(),
   ],
 })
