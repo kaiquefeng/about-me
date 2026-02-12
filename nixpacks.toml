@@ -1,5 +1,5 @@
 # Nixpacks configuration for Dokploy deployment
-# TanStack Start (static preset) - outputs to .output/public
+# Vite SPA - static output in dist/
 
 [phases.setup]
 nixPkgs = ["nodejs_20", "bun"]
@@ -11,7 +11,7 @@ cmds = ["bun install"]
 cmds = ["bun run build"]
 
 [start]
-cmd = "bunx serve .output/public -l tcp://0.0.0.0:${PORT:-3000}"
+cmd = "bunx serve dist -s -l tcp://0.0.0.0:${PORT:-3000}"
 
 [variables]
 NODE_ENV = "production"
