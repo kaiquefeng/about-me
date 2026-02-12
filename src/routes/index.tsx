@@ -76,7 +76,7 @@ function App() {
 
             <div className="mt-10 text-left">
               <h2
-                className="font-serif text-[18px] tracking-[-0.015em]"
+                className="tracking-[-0.015em]"
                 data-testid="text-contact-title"
               >
                 Want to say hi?
@@ -84,7 +84,7 @@ function App() {
               <div className="mt-4">
                 <a
                   href={`mailto:${profile.email}`}
-                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2.5 text-[13px] text-foreground transition hover:bg-secondary"
+                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2.5 text-xs text-foreground transition hover:bg-secondary"
                   data-testid="link-email"
                 >
                   <Mail className="h-4 w-4 opacity-70" />
@@ -93,10 +93,7 @@ function App() {
                 </a>
               </div>
 
-              <p
-                className="mt-8 text-center text-[12px] "
-                data-testid="text-footer"
-              >
+              <p className="mt-8 text-center text-xs" data-testid="text-footer">
                 {profile.footer}
               </p>
             </div>
