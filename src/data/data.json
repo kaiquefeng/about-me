@@ -1,0 +1,110 @@
+{
+  "profile": {
+    "name": "Kaique Feng",
+    "greeting": "Hi, my name is",
+    "bio": "I am a crazy developer and love create new projects and testing new technologies, my principal tech stack is React Js, Next Js, typeScript and your ecosystem. I have experience in the front-end area for over 9 years and have worked in several market niches.",
+    "email": "kaique@devexperience.co",
+    "softwareHouse": {
+      "name": "Devexperience",
+      "nickname": "devexperience.co",
+      "href": "https://devexperience.co"
+    },
+    "footer": "No cookies, no trackers, just links."
+  },
+  "socials": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "nickname": "@kaiquefeng",
+      "href": "https://github.com/kaiquefeng",
+      "icon": "github"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "nickname": "in/kaiquefeng",
+      "href": "https://www.linkedin.com/in/kaiquefeng/",
+      "icon": "linkedin"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "nickname": "@kaiquefeng",
+      "href": "https://instagram.com/kaiquefeng",
+      "icon": "instagram"
+    }
+  ],
+  "apps": [
+    {
+      "id": "observoo",
+      "label": "Observoo",
+      "nickname": "observoo.co",
+      "href": "https://observoo.co",
+      "icon": "observoo"
+    },
+    {
+      "id": "acumulae",
+      "label": "Acumulae",
+      "nickname": "acumulae.com",
+      "href": "https://acumulae.com",
+      "icon": "acumulae"
+    },
+    {
+      "id": "doctosave",
+      "label": "Doctosave",
+      "nickname": "doctosave.com",
+      "href": "https://doctosave.com",
+      "icon": "doctosave"
+    }
+  ],
+  "projects": [
+    { "id": "p1", "title": "Projeto 01", "href": "#", "icon": "spark" },
+    { "id": "p2", "title": "Projeto 02", "href": "#", "icon": "bolt" },
+    { "id": "p3", "title": "Projeto 03", "href": "#", "icon": "cube" },
+    { "id": "p4", "title": "Projeto 04", "href": "#", "icon": "grid" }
+  ],
+  "techStack": [
+    {
+      "id": "react",
+      "name": "React",
+      "icon": "sparkles",
+      "description": "UI modular, iterando rápido e mantendo consistência.",
+      "href": "https://react.dev/"
+    },
+    {
+      "id": "ts",
+      "name": "TypeScript",
+      "icon": "braces",
+      "description": "Tipagem para refatorar com segurança e reduzir bugs.",
+      "href": "https://www.typescriptlang.org/"
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "icon": "layers",
+      "description": "Velocidade na UI com tokens e consistência visual.",
+      "href": "https://tailwindcss.com/"
+    },
+    {
+      "id": "api",
+      "name": "APIs & integrações",
+      "icon": "globe",
+      "description": "Integrações pragmáticas com foco em confiabilidade.",
+      "href": "#"
+    },
+    {
+      "id": "db",
+      "name": "Banco de dados",
+      "icon": "database",
+      "description": "Modelagem simples, consultas eficientes e dados consistentes.",
+      "href": "#"
+    },
+    {
+      "id": "security",
+      "name": "Segurança",
+      "icon": "shield",
+      "description": "Boas práticas para reduzir riscos e manter previsibilidade.",
+      "href": "#"
+    }
+  ]
+}
