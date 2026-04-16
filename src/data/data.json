@@ -36,6 +36,13 @@
   ],
   "apps": [
     {
+      "id": "aventurai",
+      "label": "Aventurai",
+      "nickname": "aventurai.com.br",
+      "href": "https://aventurai.com.br",
+      "icon": "aventurai"
+    },
+    {
       "id": "observoo",
       "label": "Observoo",
       "nickname": "observoo.co",

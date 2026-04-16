@@ -20,5 +20,6 @@ export const MAPPING_ICONS = {
   acumulae: <AcumulaeIcon width={24} height={24} />,
   doctosave: <DoctosaveIcon width={24} height={24} />,
   devexperience: <DevexperienceLogo className="h-4" />,
+  // aventurai: <img src={AventuraiIcon} alt="Aventurai" className="h-4 w-4" />,
   globe: <Globe className="h-4 w-4" />,
 }
