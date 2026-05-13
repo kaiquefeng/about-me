@@ -1,15 +1,18 @@
-import { Globe, Linkedin } from 'lucide-react'
+import { Globe, Linkedin } from "lucide-react";
 
 import {
   SiGithub,
   SiInstagram,
   SiYoutube,
-} from '@icons-pack/react-simple-icons'
+  SiHostinger,
+  SiVercel,
+  SiCloudflare,
+} from "@icons-pack/react-simple-icons";
 
-import ObservooIcon from '@/assets/icons/observoo.svg?react'
-import AcumulaeIcon from '@/assets/icons/acumulae.svg?react'
-import DoctosaveIcon from '@/assets/icons/doctosave.svg?react'
-import { DevexperienceLogo } from '@/components/devexperience-logo'
+import ObservooIcon from "@/assets/icons/observoo.svg?react";
+import AcumulaeIcon from "@/assets/icons/acumulae.svg?react";
+import DoctosaveIcon from "@/assets/icons/doctosave.svg?react";
+import { DevexperienceLogo } from "@/components/devexperience-logo";
 
 export const MAPPING_ICONS = {
   github: <SiGithub color="#181717" size={24} />,
@@ -22,4 +25,7 @@ export const MAPPING_ICONS = {
   devexperience: <DevexperienceLogo className="h-4" />,
   // aventurai: <img src={AventuraiIcon} alt="Aventurai" className="h-4 w-4" />,
   globe: <Globe className="h-4 w-4" />,
-}
+  hostinger: <SiHostinger size={20} />,
+  // dokploy: <SiDokpl size={20} />,
+  cloudflare: <SiCloudflare color="#F48120" size={20} />,
+};

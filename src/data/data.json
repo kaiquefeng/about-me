@@ -64,6 +64,32 @@
       "icon": "doctosave"
     }
   ],
+  "services": [
+    {
+      "id": "hostinger",
+      "label": "Hostinger",
+      "description": "VPS KVM 2 ",
+      "href": "https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=GMVKAIQUE9NV&referral_id=019e229c-b7fc-7138-a7d0-7e2df875df0c",
+      "icon": "hostinger",
+      "badge": "20% off"
+    },
+    {
+      "id": "dokploy",
+      "label": "Dokploy",
+      "description": "Self-hosted deployment dashboard for your VPS",
+      "href": "https://dokploy.com/pricing",
+      "icon": "dokploy",
+      "badge": null
+    },
+    {
+      "id": "cloudflare",
+      "label": "Cloudflare",
+      "description": "CDN, DNS and security for your domains",
+      "href": "https://cloudflare.com",
+      "icon": "cloudflare",
+      "badge": null
+    }
+  ],
   "projects": [
     { "id": "p1", "title": "Projeto 01", "href": "#", "icon": "spark" },
     { "id": "p2", "title": "Projeto 02", "href": "#", "icon": "bolt" },

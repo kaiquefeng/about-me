@@ -1,15 +1,15 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { ArrowUpRight, Mail } from 'lucide-react'
-import siteData from '@/data/data.json'
-import { motion } from 'framer-motion'
-import { HomeContainer } from '@/components/home-container'
-import { SectionCardsLinks } from '@/components/section-cards-links'
-import { SectionInlineCard } from '@/components/section-inline-card'
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowUpRight, Mail, Star } from "lucide-react";
+import siteData from "@/data/data.json";
+import { motion } from "framer-motion";
+import { HomeContainer } from "@/components/home-container";
+import { SectionCardsLinks } from "@/components/section-cards-links";
+import { SectionInlineCard } from "@/components/section-inline-card";
 
-export const Route = createFileRoute('/')({ component: App })
+export const Route = createFileRoute("/")({ component: App });
 
 function App() {
-  const { profile, socials, apps } = siteData
+  const { profile, socials, apps } = siteData;
 
   return (
     <div className="min-h-dvh bg-background">
@@ -17,19 +17,19 @@ function App() {
         <motion.div
           initial={{ opacity: 0, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.35, ease: 'easeOut' }}
+          transition={{ duration: 0.35, ease: "easeOut" }}
           className="text-left"
         >
           <HomeContainer>
             <div className="inline-flex items-center gap-3">
               <img
-                src={'https://github.com/kaiquefeng.png'}
+                src={"https://github.com/kaiquefeng.png"}
                 alt="Foto"
                 className="size-12 rounded-2xl object-cover"
                 data-testid="img-avatar"
               />
               <p className="leading-relaxed" data-testid="text-intro">
-                {profile.greeting}{' '}
+                {profile.greeting}{" "}
                 <span className="font-medium text-foreground">
                   {profile.name}
                 </span>
@@ -54,23 +54,24 @@ function App() {
               item={{
                 label: profile.softwareHouse.name,
                 href: profile.softwareHouse.href,
-                id: 'software-house',
-                icon: 'devexperience',
+                id: "software-house",
+                icon: "devexperience",
                 nickname: profile.softwareHouse.nickname,
               }}
             />
 
-            {/* <p className="mt-7 leading-relaxed " data-testid="text-tech-cta">
-              Curioso sobre minha tech stack?{' '}
+            <p className="mt-7 leading-relaxed" data-testid="text-services-cta">
+              I also share some{" "}
               <Link
-                to="/tech"
-                className="link-underline font-medium text-foreground"
-                data-testid="link-tech-stack"
+                to="/services"
+                className="inline-flex items-center gap-1 font-medium text-foreground underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
+                data-testid="link-services"
               >
-                Clique aqui
-              </Link>
-              .
-            </p> */}
+                <Star className="h-3 w-3 opacity-70" />
+                recommended services
+              </Link>{" "}
+              worth checking out.
+            </p>
 
             <div className="mt-10 clean-divider" data-testid="divider-home" />
 
@@ -101,5 +102,5 @@ function App() {
         </motion.div>
       </main>
     </div>
-  )
+  );
 }
