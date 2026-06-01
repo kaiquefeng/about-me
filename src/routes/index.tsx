@@ -35,7 +35,6 @@ function App() {
                 </span>
               </p>
             </div>
-
             <p
               className="mt-6 text-balance leading-relaxed "
               data-testid="text-blurb"
@@ -75,6 +74,17 @@ function App() {
 
             <div className="mt-10 clean-divider" data-testid="divider-home" />
 
+            <div>
+              <iframe
+                src="https://api.tocreators.com/widget/kaiquefeng/medium?theme=light"
+                width="220"
+                height="96"
+                frameborder="0"
+                scrolling="no"
+                style={{ boder: "none", overflow: "hidden" }}
+                title="ToCreators Widget"
+              ></iframe>
+            </div>
             <div className="mt-10 text-left">
               <h2
                 className="tracking-[-0.015em]"
