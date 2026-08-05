@@ -9,21 +9,75 @@ import {
   SiCloudflare,
 } from "@icons-pack/react-simple-icons";
 
-import ObservooIcon from "@/assets/icons/observoo.svg?react";
-import AcumulaeIcon from "@/assets/icons/acumulae.svg?react";
-import DoctosaveIcon from "@/assets/icons/doctosave.svg?react";
 import { DevexperienceLogo } from "@/components/devexperience-logo";
 
 export const MAPPING_ICONS = {
-  github: <SiGithub color="#181717" size={24} />,
-  linkedin: <Linkedin className="h-4 w-4" />,
-  instagram: <SiInstagram color="#E4405F" size={24} />,
-  youtube: <SiYoutube color="#FF0000" size={24} />,
-  observoo: <ObservooIcon width={24} height={24} />,
-  acumulae: <AcumulaeIcon width={24} height={24} />,
-  doctosave: <DoctosaveIcon width={24} height={24} />,
+  github: (
+    <img src="/assets/icons/github.ico" alt="Aventurai" className="h-6 w-6" />
+  ),
+  linkedin: (
+    <img src="/assets/icons/linkedin.ico" alt="Aventurai" className="h-6 w-6" />
+  ),
+  instagram: (
+    <img
+      src="/assets/icons/instagram.png"
+      alt="Aventurai"
+      className="h-6 w-6"
+    />
+  ),
+  youtube: (
+    <img src="/assets/icons/youtube.ico" alt="Aventurai" className="h-6 w-6" />
+  ),
   devexperience: <DevexperienceLogo className="h-4" />,
-  // aventurai: <img src={AventuraiIcon} alt="Aventurai" className="h-4 w-4" />,
+  aventurai: (
+    <img
+      src="https://aventurai.com.br/favicon.ico"
+      alt="Aventurai"
+      className="h-6 w-6"
+    />
+  ),
+  arvono: (
+    <img
+      src="https://arvono.com.br/favicon.ico"
+      alt="Arvono"
+      className="h-6 w-6"
+    />
+  ),
+  afetoe: (
+    <img
+      src="https://afetoe.com.br/favicon.ico"
+      alt="Afetoe"
+      className="h-6 w-6"
+    />
+  ),
+  tocreators: (
+    <img
+      src="https://tocreators.com/favicon.ico"
+      alt="TocCreators"
+      className="h-6 w-6"
+    />
+  ),
+  datadev: (
+    <img
+      src="https://datadev.devexperience.co/favicon.png"
+      alt="Datadev"
+      className="h-6 w-6"
+    />
+  ),
+  saveimposto: (
+    <img
+      src="https://saveimposto.com.br/favicon.ico"
+      alt="SaveImposto"
+      className="h-6 w-6"
+    />
+  ),
+  foundsafe: (
+    <img
+      src="https://foundsafe.online/favicon.ico"
+      alt="Foundsafe"
+      className="h-6 w-6"
+    />
+  ),
   globe: <Globe className="h-4 w-4" />,
   hostinger: <SiHostinger size={20} />,
   // dokploy: <SiDokpl size={20} />,

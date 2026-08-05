@@ -43,25 +43,46 @@
       "icon": "aventurai"
     },
     {
-      "id": "observoo",
-      "label": "Observoo",
-      "nickname": "observoo.co",
-      "href": "https://observoo.co",
-      "icon": "observoo"
+      "id": "arvono",
+      "label": "Arvono",
+      "nickname": "arvono.com.br",
+      "href": "https://arvono.com.br",
+      "icon": "arvono"
     },
     {
-      "id": "acumulae",
-      "label": "Acumulae",
-      "nickname": "acumulae.com",
-      "href": "https://acumulae.com",
-      "icon": "acumulae"
+      "id": "afetoe",
+      "label": "Afetoe",
+      "nickname": "afetoe.com.br",
+      "href": "https://afetoe.com.br",
+      "icon": "afetoe"
     },
     {
-      "id": "doctosave",
-      "label": "Doctosave",
-      "nickname": "doctosave.com",
-      "href": "https://doctosave.com",
-      "icon": "doctosave"
+      "id": "tocreators",
+      "label": "TocCreators",
+      "nickname": "tocreators.com",
+      "href": "https://tocreators.com",
+      "icon": "tocreators"
+    },
+    {
+      "id": "datadev",
+      "label": "Datadev",
+      "nickname": "datadev.devexperience.co",
+      "href": "https://datadev.devexperience.co",
+      "icon": "datadev"
+    },
+    {
+      "id": "saveimposto",
+      "label": "SaveImposto",
+      "nickname": "saveimposto.com.br",
+      "href": "https://saveimposto.com.br",
+      "icon": "saveimposto"
+    },
+    {
+      "id": "foundsafe",
+      "label": "Foundsafe",
+      "nickname": "foundsafe.online",
+      "href": "https://foundsafe.online",
+      "icon": "foundsafe"
     }
   ],
   "services": [
