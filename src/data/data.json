@@ -32,6 +32,13 @@
       "nickname": "@kaiquefeng",
       "href": "https://instagram.com/kaiquefeng",
       "icon": "instagram"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "nickname": "@kaiquefeng",
+      "href": "https://www.youtube.com/@kaiquefeng",
+      "icon": "youtube"
     }
   ],
   "apps": [
