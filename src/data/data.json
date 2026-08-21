@@ -2,7 +2,7 @@
   "profile": {
     "name": "Kaique Feng",
     "greeting": "Hi, my name is",
-    "bio": "I am a crazy developer and love create new projects and testing new technologies, my principal tech stack is React Js, Next Js, typeScript and your ecosystem. I have experience in the front-end area for over 9 years and have worked in several market niches.",
+    "bio": "I am a developer passionate about creating new projects and testing new technologies; my core stack includes React.js, Next.js, TypeScript, and their ecosystem. I have 12 years of experience as a developer and have worked across various market sectors.",
     "email": "kaique@devexperience.co",
     "softwareHouse": {
       "name": "Devexperience",
@@ -114,6 +114,14 @@
       "label": "Cloudflare",
       "description": "CDN, DNS and security for your domains",
       "href": "https://cloudflare.com",
+      "icon": "cloudflare",
+      "badge": null
+    },
+    {
+      "id": "namecheap",
+      "label": "Namecheap",
+      "description": "Domains",
+      "href": "https://www.namecheap.com",
       "icon": "cloudflare",
       "badge": null
     }

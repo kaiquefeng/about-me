@@ -1,13 +1,4 @@
-import { Globe, Linkedin } from "lucide-react";
-
-import {
-  SiGithub,
-  SiInstagram,
-  SiYoutube,
-  SiHostinger,
-  SiVercel,
-  SiCloudflare,
-} from "@icons-pack/react-simple-icons";
+import { Globe } from "lucide-react";
 
 import { DevexperienceLogo } from "@/components/devexperience-logo";
 
@@ -79,7 +70,4 @@ export const MAPPING_ICONS = {
     />
   ),
   globe: <Globe className="h-4 w-4" />,
-  hostinger: <SiHostinger size={20} />,
-  // dokploy: <SiDokpl size={20} />,
-  cloudflare: <SiCloudflare color="#F48120" size={20} />,
 };

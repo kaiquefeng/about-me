@@ -19,6 +19,13 @@ function ServicesPage() {
     }[];
   };
 
+  const cleannigUrl = (url: string) => {
+    const splitted = url.split("/");
+    const mountedFaviconUrl = `${splitted[0]}//${splitted[2]}/favicon.ico`;
+
+    return mountedFaviconUrl;
+  };
+
   return (
     <div className="min-h-dvh bg-background">
       <main className="mx-auto w-full max-w-[720px] px-6 py-14 sm:py-20">
@@ -55,9 +62,11 @@ function ServicesPage() {
                   >
                     <div className="flex items-center gap-3">
                       <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-background opacity-85 transition group-hover:opacity-100">
-                        {MAPPING_ICONS[
-                          service.icon as keyof typeof MAPPING_ICONS
-                        ] || <Globe className="h-4 w-4" />}
+                        <img
+                          src={cleannigUrl(service.href)}
+                          className="size-4"
+                          alt={service.label}
+                        />
                       </span>
                       <div>
                         <p className="text-sm font-medium text-foreground leading-snug">
