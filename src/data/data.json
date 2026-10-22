@@ -90,6 +90,13 @@
       "nickname": "foundsafe.online",
       "href": "https://foundsafe.online",
       "icon": "foundsafe"
+    },
+     {
+      "id": "lograck",
+      "label": "Lograck",
+      "nickname": "lograck.com.br",
+      "href": "https://lograck.com.br",
+      "icon": "lograck"
     }
   ],
   "services": [
